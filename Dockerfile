@@ -1,4 +1,4 @@
-FROM ubuntu:15.04
+FROM ubuntu:15.10
 MAINTAINER Johannes Mitlmeier <dev.jojomi@yahoo.com>
 
 ENV DEBIAN_FRONTEND noninteractive
