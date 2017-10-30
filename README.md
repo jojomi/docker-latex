@@ -12,11 +12,11 @@ Container for building LaTeX documents (using TeXlive)
 Usually you would set your working directory and then call little scripts in `bin` directory:
 
     cd example
-    ./bin/pdflatex
+    ../bin/pdflatex
 
 This will compile `document.tex`. You can add parameters and change the latex binary (support for `pdflatex`, `xelatex`, and `lualatex` is included):
 
-    ./bin/lualatex mydocument.tex
+    ../bin/lualatex document.tex
 
 If you want those binaries to be globally available, you'll have to put them in your `PATH`. Check its current value like this:
 
