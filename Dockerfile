@@ -1,4 +1,4 @@
-FROM ubuntu:17.10
+FROM ubuntu:18.10
 MAINTAINER Johannes Mitlmeier <dev.jojomi@yahoo.com>
 
 # udpate base system
